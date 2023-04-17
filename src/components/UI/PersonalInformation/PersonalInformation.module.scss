@@ -1,0 +1,117 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .first {
+    border: 2px solid #D9D9D9B2;
+    padding: 20px;
+    .title {
+      margin-bottom: 15px;
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #00173F;
+        margin: 0;
+      }
+    }
+
+    .content {
+      .items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        gap: 20px;
+        .item {
+          p {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #00173F;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .second {
+    border: 2px solid #D9D9D9B2;
+    padding: 20px;
+    .title {
+      margin-bottom: 15px;
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #00173F;
+        margin: 0;
+      }
+    }
+
+    .content {
+      .items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        gap: 20px;
+        .item {
+          p {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #00173F;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+
+  .third {
+    border: 2px solid #D9D9D9B2;
+    padding: 20px;
+    .title {
+      margin-bottom: 15px;
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #00173F;
+        margin: 0;
+      }
+    }
+
+    .content {
+      .items {
+        display: flex;
+        
+        justify-content: space-between;
+        gap: 20px;
+        .item {
+          p {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #00173F;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

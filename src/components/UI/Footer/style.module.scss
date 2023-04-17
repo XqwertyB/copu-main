@@ -1,0 +1,140 @@
+.footer {
+  background-color: #F5F5F5;
+  padding: 60px 0;
+
+  .top {
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 50px;
+
+      .gridItem {
+        h3 {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 33px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #191919;
+          margin-bottom: 15px;
+          margin-top: 0;
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #454545;
+          margin: 0;
+          padding: 0;
+        }
+
+        .list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+
+          li {
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #454545;
+          }
+        }
+
+        .socials {
+          .phone {
+            .link {
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 33px;
+              letter-spacing: 0px;
+              text-align: left;
+              color: #1C71FF;
+              margin-bottom: 18px;
+            }
+          }
+
+          .social {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .socialLink {
+              color: #1C71FF;
+
+              svg {
+                width: 25px;
+                height: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    border-top: 1px solid #D8D8D8B2;
+    position: relative;
+
+    .totop {
+      button {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #191919;
+        background-color: #F5F5F5;
+        padding: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: absolute;
+        top: -20px;
+        left: 50%;
+
+        svg {
+          font-size: 35px;
+        }
+      }
+    }
+
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 0;
+      padding-bottom: 0;
+
+      .left {
+        .text {
+          margin: 0;
+          padding: 0;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #454545;
+        }
+      }
+
+      .right {
+        .link {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 25px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: #1C71FF;
+        }
+      }
+    }
+  }
+}

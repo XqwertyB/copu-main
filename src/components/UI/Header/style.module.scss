@@ -1,0 +1,196 @@
+.wrapper {
+  padding: 15px 0;
+
+  .top {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .left {
+        .logo {
+          a {
+            display: flex;
+            align-items: center;
+            gap: 23px;
+
+            p {
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 27px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #00173F;
+            }
+          }
+        }
+      }
+
+      .middle {
+        width: 30%;
+
+        .search {
+          width: 100%;
+          background: url('/images/tg_image_2969371826.jpeg') no-repeat center center / cover;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100px;
+
+          .wrap {
+            border-radius: 58px;
+            background: #FFFFFF;
+            border: 1px solid #E1E1E1;
+            width: 150%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px;
+
+            input {
+              width: 80%;
+              border: 0;
+              outline: none;
+            }
+
+            button {
+              background: none;
+              border: 0;
+              outline: none;
+              cursor: pointer;
+              padding: 0 10px;
+
+              img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                svg {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .right {
+        .container {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+
+          
+
+          .lang {
+            cursor: pointer;
+
+            .lang__current {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              flex-direction: column;
+
+              .img {
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                overflow: hidden;
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+              }
+
+              p {
+                margin: 0;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+
+              }
+            }
+          }
+
+          .account {
+            cursor: pointer;
+
+            .avatar {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              flex-direction: column;
+
+              .img {
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                overflow: hidden;
+              }
+
+              p {
+                margin: 0;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    margin-top: 30px;
+
+    .wrap {
+      display: flex;
+      justify-content: space-between;
+
+    }
+  }
+}
+
+.menu {
+  .buttonMenu {
+    background-color: #fff;
+    border: 0;
+    color: #00173F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
+
+    &.active {
+      color: #005AEF;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 35px;
+        left: auto;
+        width: 30px;
+        height: 1px;
+        background-color: #005AEF;
+      }
+    }
+  }
+}
+
+.lang__menu {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
